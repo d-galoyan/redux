@@ -1,0 +1,30 @@
+{
+  "name": "@dgaloyan/redux",
+  "version": "0.1.0",
+  "description": "Simple redux like package, with react hooks",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "link": "yarn link",
+    "unlink": "yarn unlink",
+    "build": "tsc -b tsconfig.json",
+    "build:watch": "tsc -b tsconfig.json --watch",
+    "clean": "rm -rf ./dist"
+  },
+  "peerDependencies": {
+    "react" : "^16.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dav697/redux.git"
+  },
+  "author": "David Galoyan",
+  "license": "ISC",
+  "gitHead": "aa64bf76383611ffa329ed4605e0a729ed3c40e8"
+}
